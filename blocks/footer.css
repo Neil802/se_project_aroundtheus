@@ -13,3 +13,15 @@
   line-height: 21.78px;
   text-align: left;
 }
+
+@media screen and (max-width: 780px) {
+  .footer {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    margin-left: 50px;
+  }
+}
