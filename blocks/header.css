@@ -1,0 +1,15 @@
+.header {
+  height: 74px;
+  margin-top: 45px;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-width: 1px;
+  border-color: #545454;
+}
+
+.header__logo {
+  height: 33px;
+  width: 173px;
+}
