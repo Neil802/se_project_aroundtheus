@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. Depending on the device and screen size, I utilize techniques and methods to design a responsive page.
+Depending on the device and screen size, I utilize new techniques and methods to design a responsive page.
 
 **Figma**
 
@@ -16,4 +16,4 @@ This project is made so all the elements are displayed correctly on popular scre
 
 **Images**
 
-![alt text](MOBILE.jpg) ![alt text](<UI KIT.jpg>) ![alt text](<MAIN PAGE.jpg>)
+![Mobile](MOBILE.jpg) ![UI](<UI KIT.jpg>) ![Main page](<MAIN PAGE.jpg>)

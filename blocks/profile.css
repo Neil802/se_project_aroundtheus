@@ -48,6 +48,7 @@
 
 .profile__button-edit:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .profile__name-button {
@@ -78,6 +79,7 @@
 
 .profile__button-add:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 780px) {
