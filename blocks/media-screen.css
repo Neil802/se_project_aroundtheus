@@ -68,6 +68,7 @@
     margin-left: 0;
     width: 282px;
     margin-top: 36px;
+    max-width: 150px;
   }
 
   .profile__name-button {
