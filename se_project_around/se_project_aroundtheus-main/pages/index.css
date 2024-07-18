@@ -1,0 +1,89 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/pages.css);
+@import url(../blocks/header.css);
+@import url(../blocks/profile.css);
+@import url(../blocks/card.css);
+@import url(../blocks/footer.css);
+
+@media screen and (max-width: 780px) {
+  .header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .profile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .profile__button-add {
+    max-width: 100px;
+  }
+
+  .footer {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin-left: 19px;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profile__name {
+    align-items: center;
+    font-family: Inter, "Arial Narrow Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: center;
+  }
+
+  .profile__button-edit {
+    max-width: 18px;
+    max-height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .profile__description {
+    justify-content: center;
+    margin-bottom: 0;
+    font-family: Inter, "Arial Narrow Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+  }
+
+  .profile__button-add {
+    margin-left: 0;
+    width: 282px;
+    margin-top: 36px;
+  }
+
+  .profile__name-button {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer {
+    margin-left: 50px;
+  }
+}
