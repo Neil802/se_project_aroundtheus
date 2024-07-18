@@ -1,5 +1,5 @@
 .header {
-  height: 74px;
+  min-height: 74px;
   margin-top: 45px;
   border-style: solid;
   border-left: none;
@@ -12,6 +12,7 @@
 .header__logo {
   height: 33px;
   width: 173px;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 780px) {
