@@ -14,7 +14,7 @@
   grid-template-areas:
     "profile__name profile__button-edit"
     "profile__description profile__description";
-  grid-template-columns: minmax(auto, 282) auto;
+  grid-template-columns: minmax(auto, 375px) auto;
   margin-left: 30px;
   align-items: center;
 }

@@ -6,7 +6,7 @@
   border-right: none;
   border-top: none;
   border-bottom-width: 1px;
-  border-color: #545454;
+  border-color: rgba(84, 84, 84, 0.699);
 }
 
 .header__logo {
