@@ -7,6 +7,7 @@ https://neil802.github.io/se_project_aroundtheus/
 - Intro
 - Figma
 - Images
+- Video
 
 **Intro**
 
@@ -19,3 +20,7 @@ Depending on the device and screen size, I utilize new techniques and methods to
 **Images**
 
 ![Mobile](MOBILE.jpg) ![UI](<UI KIT.jpg>) ![Main page](<MAIN PAGE.jpg>)
+
+**Video**
+
+- [Link to video explaining project](https://drive.google.com/file/d/1C3eaBF5FgsmuFMJxZAfbt5K93D-DUOgX/view?usp=sharing)
