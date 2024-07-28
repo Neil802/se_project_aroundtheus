@@ -14,17 +14,21 @@
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
+  width: 282px;
 }
 
 @media screen and (max-width: 780px) {
   .footer {
     margin-left: 100px;
+    margin-top: 48px;
+    margin-bottom: 36px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .footer {
-    margin-left: 50px;
+    margin-left: 19px;
+    margin-right: 19px;
   }
 
   .footer__copyright {

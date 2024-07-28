@@ -9,96 +9,88 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body class="page">
-    <div class="page__content">
-      <header class="header">
+    <header class="header">
+      <div class="header__block">
         <img
           class="header__logo"
           src="./images/logo.svg"
           alt="Around the U.S. Logo"
         />
-      </header>
-      <main class="content">
-        <section class="profile">
-          <img class="profile__avatar" src="./images/Avatar.png" alt="Avatar" />
-          <div class="profile__info">
-            <div class="profile__name-button">
-              <h1 class="profile__name">Jacques Cousteau</h1>
-              <button class="profile__button-edit"></button>
-            </div>
-            <p class="profile__description">Explorer</p>
+      </div>
+    </header>
+    <main class="content page__content">
+      <section class="profile">
+        <img class="profile__avatar" src="./images/Avatar.png" alt="Avatar" />
+        <div class="profile__info">
+          <div class="profile__name-button">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button type="button" class="profile__button-edit"></button>
           </div>
-          <button class="profile__button-add"></button>
-        </section>
-        <section class="cards">
-          <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/yosemite.jpg"
-                alt="yosemite"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Yosemite Valley</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lake-louise.jpg"
-                alt="Lake Louise"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lake Louise</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/bald-mountains.jpg"
-                alt="bald-mountains"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Bald Mountains</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/latemar.jpg"
-                alt="latemar"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Latemar</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/vanoise.jpg"
-                alt="vanoise"
-                class="card__image"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Vanoise National Park</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img src="./images/lago.jpg" alt="lago" class="card__image" />
-              <div class="card__description">
-                <h2 class="card__title">Lago di Braies</h2>
-                <button class="card__button-like"></button>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <footer class="footer">
-          <p class="footer__copyright">© 2022 Around The U.S.</p>
-        </footer>
-      </main>
-    </div>
+          <p class="profile__description">Explorer</p>
+        </div>
+        <button type="button" class="profile__button-add"></button>
+      </section>
+      <section class="cards">
+        <ul class="cards__list">
+          <li class="card">
+            <img
+              src="./images/yosemite.jpg"
+              alt="yosemite"
+              class="card__image"
+            />
+            <div class="card__description">
+              <h2 class="card__title">Yosemite Valley</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/lake-louise.jpg"
+              alt="Lake Louise"
+              class="card__image"
+            />
+            <div class="card__description">
+              <h2 class="card__title">Lake Louise</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/bald-mountains.jpg"
+              alt="bald-mountains"
+              class="card__image"
+            />
+            <div class="card__description">
+              <h2 class="card__title">Bald Mountains</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/latemar.jpg" alt="latemar" class="card__image" />
+            <div class="card__description">
+              <h2 class="card__title">Latemar</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/vanoise.jpg" alt="vanoise" class="card__image" />
+            <div class="card__description">
+              <h2 class="card__title">Vanoise National Park</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./images/lago.jpg" alt="lago" class="card__image" />
+            <div class="card__description">
+              <h2 class="card__title">Lago di Braies</h2>
+              <button type="button" class="card__button-like"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <p class="footer__copyright">© 2022 Around The U.S.</p>
+      </footer>
+    </main>
   </body>
 </html>
