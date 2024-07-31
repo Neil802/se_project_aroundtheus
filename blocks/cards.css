@@ -1,6 +1,5 @@
 .cards {
   text-align: left;
-  margin-top: 47.25px;
 }
 
 .cards__list {
@@ -11,5 +10,13 @@
   grid-gap: 20px 17px;
   padding: 0;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .cards__list {
+    margin-top: 35px;
+  }
 }

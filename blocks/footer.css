@@ -2,8 +2,8 @@
   color: #545454;
   margin-top: 67px;
   margin-bottom: 60px;
-  margin-left: auto;
-  width: 282;
+  margin-right: auto;
+  width: 282px;
 }
 
 .footer__copyright {
@@ -34,6 +34,5 @@
   .footer__copyright {
     font-size: 14px;
     line-height: 16.94px;
-    text-align: left;
   }
 }
