@@ -3,7 +3,7 @@
   margin-top: 67px;
   margin-bottom: 60px;
   margin-right: auto;
-  width: 282px;
+  width: 100%;
 }
 
 .footer__copyright {
@@ -14,7 +14,6 @@
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
-  width: 282px;
 }
 
 @media screen and (max-width: 780px) {
