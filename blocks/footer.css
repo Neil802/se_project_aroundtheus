@@ -4,6 +4,8 @@
   margin-bottom: 60px;
   margin-right: auto;
   width: 100%;
+  max-width: 882px;
+  margin-left: auto;
 }
 
 .footer__copyright {
@@ -18,20 +20,16 @@
 
 @media screen and (max-width: 780px) {
   .footer {
-    margin-left: 100px;
     margin-top: 48px;
     margin-bottom: 36px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .footer {
-    margin-left: 19px;
-    margin-right: 19px;
-  }
-
   .footer__copyright {
     font-size: 14px;
     line-height: 16.94px;
+    margin-left: 19px;
+    margin-right: 19px;
   }
 }

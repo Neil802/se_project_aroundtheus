@@ -33,6 +33,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 0;
+  max-width: 220px;
 }
 .card__button-like {
   background: transparent url(../images/like_button.svg) center no-repeat;
