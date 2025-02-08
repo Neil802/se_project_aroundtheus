@@ -16,8 +16,7 @@
     "profile__description profile__description";
   grid-template-columns: minmax(auto, 435px) auto;
   margin-left: 30px;
-  align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .profile__name {
